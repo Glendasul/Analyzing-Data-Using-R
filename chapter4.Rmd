@@ -1,18 +1,18 @@
 ---
-  title: "Chapter 4"
+title: "Chapter 4"
 author: "Glenda"
-date: "June 30, 2015"
+date: "September 18, 2016"
 output: html_document
 ---
   
   ```{r
-    ## Loading libraries
+    ###################### Recording the percentage returns for each of the five previous trading days, Lag1 to Lag5 #################
+      ## Loading libraries
     library(ggplot2)
     library(dplyr)
     library(rmarkdown)
     library(ISLR) 
     
-    ###################### Recording the percentage returns for each of the five previous trading days, Lag1 to Lag5 #################
     ## Column names in the Smarket database
     names(Smarket)
     
